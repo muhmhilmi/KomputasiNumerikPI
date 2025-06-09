@@ -2,8 +2,8 @@
 
 Proyek UAS Metode Numerik  
 Nama: Muhammad Hilmi Al Muttaqi  
-NPM: 2306267082
-Kelas: Komputasi Numerik 02
+NPM: 2306267082  
+Kelas: Komputasi Numerik 02  
 Fakultas Teknik Universitas Indonesia
 
 ## Deskripsi Proyek
