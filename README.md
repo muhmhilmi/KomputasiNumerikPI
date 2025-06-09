@@ -1,18 +1,19 @@
 # Regresi Least-Squares pada Sistem Suspensi Mobil
 
 Proyek UAS Metode Numerik  
-Nama: [Nama Lengkap]  
-NPM: [NPM Kamu]  
-Universitas Indonesia
+Nama: Muhammad Hilmi Al Muttaqi  
+NPM: 2306267082
+Kelas: Komputasi Numerik 02
+Fakultas Teknik Universitas Indonesia
 
-## 📌 Deskripsi Proyek
+## Deskripsi Proyek
 Proyek ini bertujuan untuk membangun model regresi linear least-squares dari data eksperimen sistem suspensi mobil. Data yang digunakan menunjukkan hubungan antara displacement (meter) dan gaya (x10⁴ N). Model ini dikembangkan menggunakan bahasa C, dengan hasil regresi:
 
 F(x) = 180.2269x - 12.8979
 
 dan memiliki Mean Squared Error (MSE) sebesar **55.283630**, yang menunjukkan bahwa model cukup akurat untuk pemodelan awal.
 
-## 🧮 Data
+## Data
 Data diambil dari Tabel P20.49 buku *Applied Numerical Methods with MATLAB* oleh Steven Chapra.
 
 | x (m) | F (10⁴ N) |
@@ -26,19 +27,20 @@ Data diambil dari Tabel P20.49 buku *Applied Numerical Methods with MATLAB* oleh
 | 0.43  | 70        |
 | 0.44  | 80        |
 
-## 🧑‍💻 Struktur File
+## Struktur File
 - `regresi_linear.c` – kode utama untuk menghitung model regresi dan prediksi
 - `README.md` – dokumentasi proyek
 - (opsional) `data.txt` – jika kamu ingin pisahkan input data
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 1. Buka terminal/command prompt.
 2. Kompilasi program:
    gcc regresi_linear.c -o regresi
 3. Jalankan program:
    ./regresi
-📺 Video Demonstrasi
-Klik untuk menonton di YouTube
+
+## Video Demonstrasi
+Klik link sebelah ini untuk menonton di YouTube: 
 
 📚 Referensi
 - S. C. Chapra, Applied Numerical Methods with MATLAB, 4th ed., McGraw-Hill, 2018.
