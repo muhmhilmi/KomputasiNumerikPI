@@ -7,11 +7,15 @@ Kelas: Komputasi Numerik 02
 Fakultas Teknik Universitas Indonesia
 
 ## Deskripsi Proyek
-Proyek ini bertujuan untuk membangun model regresi linear least-squares dari data eksperimen sistem suspensi mobil. Data yang digunakan menunjukkan hubungan antara displacement (meter) dan gaya (x10⁴ N). Model ini dikembangkan menggunakan bahasa C, dengan hasil regresi:
+## 📌 Deskripsi Proyek
+Sistem suspensi merupakan komponen penting dalam kendaraan yang berfungsi meredam getaran dan menjaga kestabilan selama berkendara. Salah satu aspek krusial dalam mendesain sistem suspensi adalah memahami bagaimana gaya yang diberikan berkorelasi dengan displacement yang terjadi. Proyek ini bertujuan untuk membangun sebuah model matematis berbasis regresi least-squares linear yang merepresentasikan hubungan antara displacement (m) dan gaya (10⁴ N) pada sistem suspensi mobil, menggunakan data eksperimen yang diperoleh dari literatur teknik.
+
+Dengan memanfaatkan metode numerik dan bahasa pemrograman C, model ini dirancang untuk menghitung koefisien regresi optimal dan memprediksi nilai gaya berdasarkan displacement. Model yang dihasilkan:
 
 F(x) = 180.2269x - 12.8979
 
-dan memiliki Mean Squared Error (MSE) sebesar **55.283630**, yang menunjukkan bahwa model cukup akurat untuk pemodelan awal.
+menunjukkan performa yang cukup baik, dengan nilai Mean Squared Error (MSE) sebesar **55.283630**, membuktikan bahwa model dapat digunakan sebagai pendekatan awal yang andal dalam simulasi atau desain sistem suspensi. Selain menjadi latihan penerapan metode numerik, proyek ini juga bertujuan mendemonstrasikan bagaimana pendekatan ilmiah sederhana dapat memberikan fondasi kuat dalam pengambilan keputusan teknik berbasis data.
+
 
 ## Data
 Data diambil dari Tabel P20.49 buku *Applied Numerical Methods with MATLAB* oleh Steven Chapra.
