@@ -30,7 +30,6 @@ Data diambil dari Tabel P20.49 buku *Applied Numerical Methods with MATLAB* oleh
 ## Struktur File
 - `regresi_linear.c` – kode utama untuk menghitung model regresi dan prediksi
 - `README.md` – dokumentasi proyek
-- (opsional) `data.txt` – jika kamu ingin pisahkan input data
 
 ## Cara Menjalankan
 1. Buka terminal/command prompt.
