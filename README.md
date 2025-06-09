@@ -7,7 +7,6 @@ Kelas: Komputasi Numerik 02
 Fakultas Teknik Universitas Indonesia
 
 ## Deskripsi Proyek
-## 📌 Deskripsi Proyek
 Sistem suspensi merupakan komponen penting dalam kendaraan yang berfungsi meredam getaran dan menjaga kestabilan selama berkendara. Salah satu aspek krusial dalam mendesain sistem suspensi adalah memahami bagaimana gaya yang diberikan berkorelasi dengan displacement yang terjadi. Proyek ini bertujuan untuk membangun sebuah model matematis berbasis regresi least-squares linear yang merepresentasikan hubungan antara displacement (m) dan gaya (10⁴ N) pada sistem suspensi mobil, menggunakan data eksperimen yang diperoleh dari literatur teknik.
 
 Dengan memanfaatkan metode numerik dan bahasa pemrograman C, model ini dirancang untuk menghitung koefisien regresi optimal dan memprediksi nilai gaya berdasarkan displacement. Model yang dihasilkan:
@@ -43,7 +42,7 @@ Data diambil dari Tabel P20.49 buku *Applied Numerical Methods with MATLAB* oleh
    ./regresi
 
 ## Video Demonstrasi
-Klik link sebelah ini untuk menonton di YouTube: 
+Klik link sebelah ini untuk menonton di YouTube: https://youtu.be/11xuE6K39JQ
 
 📚 Referensi
 - S. C. Chapra, Applied Numerical Methods with MATLAB, 4th ed., McGraw-Hill, 2018.
