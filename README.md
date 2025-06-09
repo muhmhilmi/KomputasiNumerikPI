@@ -30,6 +30,12 @@ Data diambil dari Tabel P20.49 buku *Applied Numerical Methods with MATLAB* oleh
 | 0.43  | 70        |
 | 0.44  | 80        |
 
+## 📊 Visualisasi Hasil Regresi
+
+Berikut adalah grafik perbandingan antara data gaya aktual dengan hasil prediksi dari model regresi linear:
+
+![Plot hasil regresi linear](plot_regresi_suspensi.png)
+
 ## Struktur File
 - `regresi_linear.c` – kode utama untuk menghitung model regresi dan prediksi
 - `README.md` – dokumentasi proyek
